@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>PDF Viewer</title>
-  </head>
-  <body>
-    <embed src="GEHWOL_Kaltplasma_Sonderdruck.pdf" type="application/pdf" width="100%" height="100%">
-  </body>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Viewer</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #222;
+    }
+    embed {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <embed src="GEHWOL_Kaltplasma_Sonderdruck.pdf" type="application/pdf">
+</body>
 </html>
