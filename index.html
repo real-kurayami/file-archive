@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PDF Viewer</title>
   <style>
     html, body {
       margin: 0;
       height: 100%;
-      background: #222;
+      background: #1e1e1e;
     }
-    embed {
-      display: block;
+    iframe {
+      border: none;
       width: 100vw;
       height: 100vh;
-      border: none;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <embed src="GEHWOL_Kaltplasma_Sonderdruck.pdf" type="application/pdf">
+  <iframe
+    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=GEHWOL_Kaltplasma_Sonderdruck.pdf">
+  </iframe>
 </body>
 </html>
